@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>Selvamani mill Works</title>
+<style>
+
+.header{
+    background-color:lightgreen;
+    }
+.logo{
+      position:relative;
+      float:left;
+      width:78px;
+      height:77px;
+      border-style:solid;
+      border-color:lightgreen;
+      }
+.animate-charcter{
+
+  text-transform: uppercase;
+  background-image: linear-gradient(
+         -225deg,
+         #231557 0%,
+         #44107a 29%,
+         #ff1361 67%,
+         #fff800 100%
+        );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  
+  }
+  @keyframes textclip{ 
+   to{
+      backgroud-position:200% center;
+     }
+  }
+
+.a{
+  background-color:#008000;
+  float:right;
+  color:white;
+  text-align:center;
+  padding:30px 18px;
+  font-size:17px;
+  }
+.a:hover{
+        background-color:lightgreen;
+        color:purple;
+       }
+.a.active{
+          backgroung-color:purple;
+          color:yellow;
+        }
+body{
+          background-image: url("rice.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          
+          animation: mymoveagri 2s;
+          animation-delay: 2s;
+          animation-timing-gunction: ease-in-out;
+          -webkit-animation-timing-gunction: ease-in-out;
+         }
+@keyframes mymoveagri{
+                  from{
+                       background-image: url("corn.jpg");
+                       background-size: cover;
+                       }
+                  to{
+                      background-image: url("paddy.jpg");
+                      background-size: cover;
+                     }
+                  }
+
+.box{
+  display: inline-block;
+  margin: 35px;
+  height:46%;
+  width:34%;
+  color: green; 
+  border-color: green;
+  border-style: solid;
+  box-shadow: 30px 40px 40px rgba(0,0,0,.3);
+  align-items: center;
+  background-color: lightblue; 
+}
+.agricultire{
+  display: inline-block;
+  margin: 35px;
+  height:200px;
+  width:650px;
+  color: #008000; 
+  border-color: green;
+  border-style: solid;
+  box-shadow: 30px 40px 40px rgba(0,0,0,.3);
+  align-items: center;
+  background-image: url("g.jpg");
+  background-size: cover;
+          
+}
+
+.agricultire:hover { transform: scale(1.1);}
+.agricultire{transition: all 1.3s;}
+.machineary{
+  display: inline-block;
+  margin: 35px;
+  height:200px;
+  width:650px;
+  color: #008000; 
+  border-color: green;
+  border-style: solid;
+  box-shadow: 30px 40px 40px rgba(0,0,0,.3);
+  align-items: center;
+  background-image: url("g.jpg");
+  background-size: cover;
+          
+}
+
+.machineary:hover { transform: scale(1.1);}
+.machineary{transition: all 1.3s;}
+.box:hover { transform: scale(1.3);}
+.box{transition: all 1.3s;}
+</style>
+</head>
+<body>
+<div class="header">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+                <img class="logo" src="logo.jpg" alt="logo" />
+                <h1 class="animate-charcter">Selvamani mill Works</h1>
+                    
+                     	<a class="a" href="contact.html">Contact Us</a>
+                     	<a class="a" href="about.html">About Us</a>
+                        <a class="a" href="products.html">Products & Services</a>
+                        <a class="a active" href="#home">Home</a>
+            </div>
+         </div>
+      </div>
+</div>
+
+<div class="content1"> 
+<p>Visit our site for healthy life style</p>
+</div>
+
+<div class="content2">         
+           <div class="boxes">
+           
+           <div class="agricultire">
+              <div class="box">
+              	<p><center>Modern Rice Mill</center></p>
+                <center><a href="contact.html">View More</a></center>
+              </div>
+              <div class="box">
+              	<p><center>Flour Mill cum Seasonal Market</center></p>
+                <center><a href="seasonalMarket.html">View More</a></center>
+              </div>
+           </div>
+           <div class="machineary">
+              <div class="box">
+              	<p><center>Vehicle milling works</center></p>
+                <center><a href="contact.html">View More</a></center>
+              </div>
+              <div class="box">
+              	<p><center>Water service</center></p>
+                <center><a href="contact.html">View More</a></center>
+              </div>
+           </div>
+           
+           </div>
+          
+</div>
+</body>
+</html>
